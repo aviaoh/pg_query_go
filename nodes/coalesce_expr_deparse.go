@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CoalesceExpr) Deparse() string {
-	panic("Not Implemented")
+func (node CoalesceExpr) Deparse(_ ...string) string {
+	panic("Not Implemented for type CoalesceExpr")
 }

@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node ParamRef) Deparse() string {
-	panic("Not Implemented")
+func (node ParamRef) Deparse(_ ...string) string {
+	panic("Not Implemented for type ParamRef")
 }

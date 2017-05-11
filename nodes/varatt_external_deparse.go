@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node varatt_external) Deparse() string {
-	panic("Not Implemented")
+func (node varatt_external) Deparse(_ ...string) string {
+	panic("Not Implemented for type varatt_external")
 }

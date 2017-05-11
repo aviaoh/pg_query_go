@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node DeclareCursorStmt) Deparse() string {
-	panic("Not Implemented")
+func (node DeclareCursorStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type DeclareCursorStmt")
 }

@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node TableSampleClause) Deparse() string {
-	panic("Not Implemented")
+func (node TableSampleClause) Deparse(_ ...string) string {
+	panic("Not Implemented for type TableSampleClause")
 }

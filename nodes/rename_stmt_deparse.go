@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node RenameStmt) Deparse() string {
-	panic("Not Implemented")
+func (node RenameStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type RenameStmt")
 }

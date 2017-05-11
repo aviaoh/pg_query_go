@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node AlterDefaultPrivilegesStmt) Deparse() string {
-	panic("Not Implemented")
+func (node AlterDefaultPrivilegesStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type AlterDefaultPrivilegesStmt")
 }

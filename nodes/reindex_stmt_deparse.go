@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node ReindexStmt) Deparse() string {
-	panic("Not Implemented")
+func (node ReindexStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type ReindexStmt")
 }

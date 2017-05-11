@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node VariableShowStmt) Deparse() string {
-	panic("Not Implemented")
+func (node VariableShowStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type VariableShowStmt")
 }

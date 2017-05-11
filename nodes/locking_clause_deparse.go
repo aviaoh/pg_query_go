@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node LockingClause) Deparse() string {
-	panic("Not Implemented")
+func (node LockingClause) Deparse(_ ...string) string {
+	panic("Not Implemented for type LockingClause")
 }

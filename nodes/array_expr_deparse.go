@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node ArrayExpr) Deparse() string {
-	panic("Not Implemented")
+func (node ArrayExpr) Deparse(_ ...string) string {
+	panic("Not Implemented for type ArrayExpr")
 }

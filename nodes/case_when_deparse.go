@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CaseWhen) Deparse() string {
-	panic("Not Implemented")
+func (node CaseWhen) Deparse(_ ...string) string {
+	panic("Not Implemented for type CaseWhen")
 }

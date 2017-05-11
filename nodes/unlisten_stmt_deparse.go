@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node UnlistenStmt) Deparse() string {
-	panic("Not Implemented")
+func (node UnlistenStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type UnlistenStmt")
 }

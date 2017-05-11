@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node AlterDomainStmt) Deparse() string {
-	panic("Not Implemented")
+func (node AlterDomainStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type AlterDomainStmt")
 }

@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node Var) Deparse() string {
-	panic("Not Implemented")
+func (node Var) Deparse(_ ...string) string {
+	panic("Not Implemented for type Var")
 }

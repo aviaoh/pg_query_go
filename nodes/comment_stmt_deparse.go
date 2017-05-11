@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CommentStmt) Deparse() string {
-	panic("Not Implemented")
+func (node CommentStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type CommentStmt")
 }

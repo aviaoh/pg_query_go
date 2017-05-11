@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node XmlSerialize) Deparse() string {
-	panic("Not Implemented")
+func (node XmlSerialize) Deparse(_ ...string) string {
+	panic("Not Implemented for type XmlSerialize")
 }

@@ -46,3 +46,11 @@ func (input ParsetreeList) Fingerprint() string {
 
 	return fmt.Sprintf("%02x%s", fingerprintVersion, hex.EncodeToString(ctx.Sum()))
 }
+
+func (input ParsetreeList) Deparse(_ ...string) string {
+	output := ""
+    for _, stmt := range input.Statements {
+        output += stmt.Deparse() + ";\n" // TODO was space instead new line
+    }
+	return output[:len(output)-1]
+}

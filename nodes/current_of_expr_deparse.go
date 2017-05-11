@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CurrentOfExpr) Deparse() string {
-	panic("Not Implemented")
+func (node CurrentOfExpr) Deparse(_ ...string) string {
+	panic("Not Implemented for type CurrentOfExpr")
 }

@@ -388,12 +388,13 @@ func (node *#{type}) UnmarshalJSON(input []byte) (err error) {
   return
 }
         ), true, "postgres/src/include/#{source_filename}.h"
+        ), true, "postgres/src/include/#{source_filename}.h"
 
         write_nodes_file(type + '_deparse', %(
-func (node #{type}) Deparse() string {
-  panic("Not Implemented")
+func (node #{type}) Deparse(_ ...string) string {
+  panic("Not Implemented for type #{type}")
 }
-        ), true)
+        ), false)
 
         write_nodes_file(type + '_fingerprint', %(
 import "strconv"

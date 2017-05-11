@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node Const) Deparse() string {
-	panic("Not Implemented")
+func (node Const) Deparse(_ ...string) string {
+	panic("Not Implemented for type Const")
 }

@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node ImportForeignSchemaStmt) Deparse() string {
-	panic("Not Implemented")
+func (node ImportForeignSchemaStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type ImportForeignSchemaStmt")
 }

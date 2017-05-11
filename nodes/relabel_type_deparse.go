@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node RelabelType) Deparse() string {
-	panic("Not Implemented")
+func (node RelabelType) Deparse(_ ...string) string {
+	panic("Not Implemented for type RelabelType")
 }

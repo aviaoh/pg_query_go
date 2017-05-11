@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CreateExtensionStmt) Deparse() string {
-	panic("Not Implemented")
+func (node CreateExtensionStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type CreateExtensionStmt")
 }

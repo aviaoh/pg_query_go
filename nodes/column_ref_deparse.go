@@ -1,7 +1,6 @@
-// Auto-generated - DO NOT EDIT
-
 package pg_query
 
-func (node ColumnRef) Deparse() string {
-	panic("Not Implemented")
+func (node ColumnRef) Deparse(_ ...string) string {
+	return node.Fields.Deparse()
+    // TODO end.join('.')
 }

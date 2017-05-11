@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node A_Const) Deparse() string {
-	panic("Not Implemented")
+func (node A_Const) Deparse(_ ...string) string {
+	return node.Val.Deparse("a_const")
 }

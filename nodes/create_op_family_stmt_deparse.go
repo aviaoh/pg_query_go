@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CreateOpFamilyStmt) Deparse() string {
-	panic("Not Implemented")
+func (node CreateOpFamilyStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type CreateOpFamilyStmt")
 }

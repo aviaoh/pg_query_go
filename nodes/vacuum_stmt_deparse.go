@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node VacuumStmt) Deparse() string {
-	panic("Not Implemented")
+func (node VacuumStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type VacuumStmt")
 }

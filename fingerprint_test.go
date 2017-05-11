@@ -31,7 +31,7 @@ func TestFingerprint(t *testing.T) {
 	}
 
 	for _, test := range fingerprintTests {
-		fmt.Printf(".")
+		fmt.Print(".")
 
 		actualTree, err := pg_query.Parse(test.Input)
 		if err != nil {
@@ -53,5 +53,5 @@ func TestFingerprint(t *testing.T) {
 		}
 	}
 
-	fmt.Printf("\n")
+	fmt.Println()
 }

@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node DropTableSpaceStmt) Deparse() string {
-	panic("Not Implemented")
+func (node DropTableSpaceStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type DropTableSpaceStmt")
 }

@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CreateOpClassStmt) Deparse() string {
-	panic("Not Implemented")
+func (node CreateOpClassStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type CreateOpClassStmt")
 }

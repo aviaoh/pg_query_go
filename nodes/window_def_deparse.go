@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node WindowDef) Deparse() string {
-	panic("Not Implemented")
+func (node WindowDef) Deparse(_ ...string) string {
+	panic("Not Implemented for type WindowDef")
 }

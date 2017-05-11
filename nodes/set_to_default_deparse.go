@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node SetToDefault) Deparse() string {
-	panic("Not Implemented")
+func (node SetToDefault) Deparse(_ ...string) string {
+	panic("Not Implemented for type SetToDefault")
 }

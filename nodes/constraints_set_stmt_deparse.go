@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node ConstraintsSetStmt) Deparse() string {
-	panic("Not Implemented")
+func (node ConstraintsSetStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type ConstraintsSetStmt")
 }

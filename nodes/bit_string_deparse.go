@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node BitString) Deparse() string {
-	panic("Not Implemented")
+func (node BitString) Deparse(_ ...string) string {
+	panic("Not Implemented for type BitString")
 }

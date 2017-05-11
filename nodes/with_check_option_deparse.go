@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node WithCheckOption) Deparse() string {
-	panic("Not Implemented")
+func (node WithCheckOption) Deparse(_ ...string) string {
+	panic("Not Implemented for type WithCheckOption")
 }

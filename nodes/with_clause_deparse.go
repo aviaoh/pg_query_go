@@ -2,6 +2,10 @@
 
 package pg_query
 
-func (node WithClause) Deparse() string {
-	panic("Not Implemented")
+func (node WithClause) Deparse(_ ...string) string {
+	output := "WITH "
+    if node.Recursive {
+		output += "RECURSIVE "
+	}
+    return output + node.Ctes.Deparse()
 }

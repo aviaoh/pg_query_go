@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node DeleteStmt) Deparse() string {
-	panic("Not Implemented")
+func (node DeleteStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type DeleteStmt")
 }

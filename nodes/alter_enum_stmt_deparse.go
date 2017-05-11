@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node AlterEnumStmt) Deparse() string {
-	panic("Not Implemented")
+func (node AlterEnumStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type AlterEnumStmt")
 }

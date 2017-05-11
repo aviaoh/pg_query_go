@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node BlockIdData) Deparse() string {
-	panic("Not Implemented")
+func (node BlockIdData) Deparse(_ ...string) string {
+	panic("Not Implemented for type BlockIdData")
 }

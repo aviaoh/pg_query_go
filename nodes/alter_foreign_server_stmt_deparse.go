@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node AlterForeignServerStmt) Deparse() string {
-	panic("Not Implemented")
+func (node AlterForeignServerStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type AlterForeignServerStmt")
 }

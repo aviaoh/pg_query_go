@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node AlterTSDictionaryStmt) Deparse() string {
-	panic("Not Implemented")
+func (node AlterTSDictionaryStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type AlterTSDictionaryStmt")
 }

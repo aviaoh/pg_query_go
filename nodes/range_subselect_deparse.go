@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node RangeSubselect) Deparse() string {
-	panic("Not Implemented")
+func (node RangeSubselect) Deparse(_ ...string) string {
+	panic("Not Implemented for type RangeSubselect")
 }

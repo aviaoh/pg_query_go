@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CaseTestExpr) Deparse() string {
-	panic("Not Implemented")
+func (node CaseTestExpr) Deparse(_ ...string) string {
+	panic("Not Implemented for type CaseTestExpr")
 }

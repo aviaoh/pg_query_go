@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node RangeTblEntry) Deparse() string {
-	panic("Not Implemented")
+func (node RangeTblEntry) Deparse(_ ...string) string {
+	panic("Not Implemented for type RangeTblEntry")
 }

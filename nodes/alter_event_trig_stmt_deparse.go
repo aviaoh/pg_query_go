@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node AlterEventTrigStmt) Deparse() string {
-	panic("Not Implemented")
+func (node AlterEventTrigStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type AlterEventTrigStmt")
 }

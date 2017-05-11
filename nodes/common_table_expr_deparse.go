@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CommonTableExpr) Deparse() string {
-	panic("Not Implemented")
+func (node CommonTableExpr) Deparse(_ ...string) string {
+	panic("Not Implemented for type CommonTableExpr")
 }

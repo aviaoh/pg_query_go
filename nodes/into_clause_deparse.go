@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node IntoClause) Deparse() string {
-	panic("Not Implemented")
+func (node IntoClause) Deparse(_ ...string) string {
+	panic("Not Implemented for type IntoClause")
 }

@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node LockStmt) Deparse() string {
-	panic("Not Implemented")
+func (node LockStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type LockStmt")
 }

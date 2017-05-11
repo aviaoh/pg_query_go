@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node CreateSeqStmt) Deparse() string {
-	panic("Not Implemented")
+func (node CreateSeqStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type CreateSeqStmt")
 }

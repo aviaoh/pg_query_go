@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node ClusterStmt) Deparse() string {
-	panic("Not Implemented")
+func (node ClusterStmt) Deparse(_ ...string) string {
+	panic("Not Implemented for type ClusterStmt")
 }

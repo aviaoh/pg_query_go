@@ -2,6 +2,6 @@
 
 package pg_query
 
-func (node MultiAssignRef) Deparse() string {
-	panic("Not Implemented")
+func (node MultiAssignRef) Deparse(_ ...string) string {
+	panic("Not Implemented for type MultiAssignRef")
 }
